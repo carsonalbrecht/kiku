@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KIKU BISTRO</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon1.ico" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .wrapper {
+            /*width: fit-content;*/
+            /*height: 3000px;*/
+            height: auto;
+            /*background-color: #CCCC99;*/
+            margin: 0 auto;
+            position: relative;
+        }
+
+        nav {
+            /*width: 2000px;*/
+            height: 35px;
+            background-color: black;
+            /*color: gray;*/
+            margin: 0 auto;
+            /*padding-top: 150px;*/
+            text-align: right;
+            padding-right: 7%;
+        }
+
+        .logo {
+
+            position: relative;
+            margin-top: 30px;
+            padding-left: 4%;
+
+        }
+
+        #section_01 {
+            background-color: #CCCC99;
+        }
+
+        #section_03, #section_05 {
+
+            background-color: #E9CA7B;
+            color: black;
+            margin: 0 auto;
+            position: relative;
+            padding-left: 9%;
+            padding-top: 2%;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+            font-size: 40px;
+            font-style: italic;
+
+        }
+
+
+        #section_02, #section_04 {
+            /*width: 2000px;*/
+            /*height: 800px;*/
+            background-color: #E9CA7B;
+            color: black;
+            margin: 0 auto;
+            position: relative;
+            padding-left: 9%;
+            padding-top: 2%;
+            font-family: 'Roboto', sans-serif;
+            font-weight: bolder;
+            font-size: 40px;
+            font-style: italic;
+
+        }
+
+        p#nav-section_01, p#nav-section_02, p#nav-section_03, p#nav-section_04, p#nav-section_05 {
+            display: inline;
+            font-size: 20px;
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            padding: 20px;
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .about_container {
+            padding-left: 9%;
+            padding-right: 9%;
+        }
+
+        .about_info {
+            background-color: #CCCC99;
+            padding: 2% 9% 20%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 18px;
+        }
+
+
+        .menu {
+            padding-left: 9%;
+            padding-right: 9%;
+            background-color: white;
+        }
+
+        .hours {
+            background-color: #CCCC99;
+            padding-left: 27%;
+            padding-right: 9%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 30px;
+            padding-bottom: 10%;
+
+        }
+
+        .map {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /*position: absolute;*/
+
+
+        }
+
+        .button {
+            position: relative;
+
+            /*top: 11150px;*/
+            /*left: 340px;*/
+
+            display: inline-block;
+            /*left: 14%;*/
+            left: 165px;
+            /*bottom: 6%;*/
+            bottom: 260px;
+
+
+
+
+            border: 1px solid #CCCC99;
+            font-family: 'Roboto', sans-serif;
+            font-size: 13px;
+            text-align: center;
+            text-emphasis-color: #E9CA7B;
+            padding: 15px 20px 15px 20px;
+
+        }
+
+        .footer {
+            text-align: right;
+            color: white;
+            font-size: 13px;
+            background-color: black;
+            padding-bottom: 30px;
+            padding-right: 15px;
+            font-family: 'Roboto', sans-serif;
+
+        }
+
+
+        .back_to_top {
+            position: sticky;
+            top: 0px;
+            padding: 5px;
+            text-align: right;
+            color: black;
+            font-family: 'Roboto', sans-serif;
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        a.nav:link {
+            text-decoration: none;
+            color: white;
+        }
+
+        a.nav:visited {
+            text-decoration: none;
+            color: white;
+        }
+
+        a.nav:hover {
+            /*text-decoration: #CCCC99;*/
+            color: #E9CA7B;
+        }
+
+        a.nav:active {
+            text-decoration: none;
+            color: #E9CA7B;
+        }
+
+
+        a.top:link {
+            text-decoration: none;
+            color: black;
+        }
+
+        a.top:visited {
+            text-decoration: none;
+            color: black;
+        }
+
+        a.top:hover {
+            color: darkgrey;
+        }
+
+
+
+
+        h1  {
+            padding-top: 40px;
+            padding-bottom: 20px;
+            font-style: italic;
+            text-decoration: underline;
+            font-size: 30px;
+
+        }
+
+        h2  {
+            padding-top: 30px;
+            padding-bottom: 10px;
+            font-weight: normal;
+            font-size: 20px;
+        }
+
+        h3 {
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+<div class="wrapper">
+    <!--<a name="top"></a>-->
+    <div class="back_to_top">
+        <a href= "#top" class="top">back to top ↑</a>
+
+
+    </div>
+
+    <div class="logo">
+        <img src="whitekiku.png" height="100%" width=300px>
+    </div>
+
+    <nav>
+        <a href="#section_01" class="nav"><p id="nav-section_01">ABOUT</p></a>
+        <a href="#section_02" class="nav"><p id="nav-section_02">MENU</p></a>
+        <a href="#section_03" class="nav"><p id="nav-section_03">HOURS</p></a>
+        <a href="#section_04" class="nav"><p id="nav-section_04">DIRECTIONS</p></a>
+        <!--<a href="#section_05"><p id="nav-section_05">RESERVATIONS</p></a>-->
+
+    </nav>
+
+    <div id="section_01" class="about_container">
+        <!--<p>about</p>-->
+        <img src="sushi_head.png" alt="sushi" width="1024px">
+    </div>
+
+    <div class="about_info">
+        <p><b>Kiku Bistro</b> is a locally-owned Asian restaurant featuring innovative sushi rolls and traditional stir-fries, teriyakis, and tempuras. We feature fare for the experienced sushi aficionado, as well as the guest seeking to explore new cuisine. Come visit us in the heart of Uptown for our daily Happy Hour and stay for dinner and our new and expanded dinner menu.
+            <br></br>
+            <p>We look forward to meeting you!</p>
+
+    </div>
+
+
+    <div id="section_02"><p>MENU //</p>
+    </div>
+
+    <div class="menu">
+        <img src="menu_1.png" alt="Menu 1" width="1024px">
+        <img src="menu_2.png" alt="Menu 2" width="1024px">
+    </div>
+
+
+
+    <div id="section_03"><p>HOURS //</p></div>
+
+    <div class="hours">
+        <h1>Weekly Hours</h1>
+        <h2>Monday - Thursday</h2>
+        <p><i>4:30pm-12:30am</i></p>
+        <h2>Friday - Saturday</h2>
+        <p><i>3:00pm-1:30am</i></p>
+        <h2>Sunday</h2>
+        <p><i>3:00pm-12:30am</i></p>
+        <br>
+        <h1>Happy Hour</h1>
+        <h2>Monday - Thursday</h2>
+        <p> <i>4:30pm-7:30pm & 9:00pm-CLOSE</i></p>
+        <h2>Friday</h2>
+        <p> <i>3:00pm-7:30pm & 9:00pm-CLOSE</i></p>
+        <h2>Saturday & Sunday</h2>
+        <p><i>ALL DAY</i></p>
+
+    </div>
+
+
+
+    <div id="section_04"><p>DIRECTIONS //</p></div>
+
+        <div class="map">
+        <img src="directions.png" alt="directions" width=100%>
+
+        <div class="button">
+
+            <a href="https://goo.gl/maps/mX2AygWfpeq" class="nav" target="_blank">GET DIRECTIONS</a>
+        </div>
+        </div>
+
+
+    <!--<div id="section_05"><p>RESERVATIONS //</p></div>-->
+
+    <div class="footer">
+        <p>Kiku Bistro | 2819 Hennepin Ave. S. Minneapolis, MN 55408 | 612.872.1778 </p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div>
+    <!--end of wrapper-->
+
+
+</body>
+
+</html>
